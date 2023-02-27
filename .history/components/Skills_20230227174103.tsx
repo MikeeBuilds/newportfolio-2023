@@ -12,9 +12,9 @@ function Skills({}: Props) {
             <h3 className='absolute top-24 uppercase tracking-widest text-gray-500 text-2xl animate-pulse'>
                 Skills
                 </h3>
-
+                
                 <h3>
-                    Hover over a skill for current proficiency
+
                 </h3>
         </motion.div>
     )

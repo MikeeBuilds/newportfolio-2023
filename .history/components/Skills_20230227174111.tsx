@@ -14,7 +14,7 @@ function Skills({}: Props) {
                 </h3>
 
                 <h3>
-                    Hover over a skill for current proficiency
+                    
                 </h3>
         </motion.div>
     )
