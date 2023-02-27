@@ -9,28 +9,19 @@ export default function Hero({}: Props) {
         words: [
             "Hello, The name is Mike", 
             "A-Guy-Who-Loves-Coffee.tsx", 
-            "<ButLovesToCodeEvenMore />",
+            "<ButLovesToBuildEvenMore />",
         ],
         loop: true,
         delaySpeed: 2000,
 });
     return (
-        <div className='h-screen flex flex-col space-y-8 items-center justify-center
+        <ion.div className='h-screen flex flex-col space-y-8 items-center justify-center
                         text-center overflow-hidden'>
             <BackgroundCircles />
-            <img 
-                className='relative rounded-full h-32 mx-auto object-cover' 
-                src="https://media.licdn.com/dms/image/C5622AQFSM5_Oz3VXTg/feedshare-shrink_800/0/1676510303232?e=1680134400&v=beta&t=4pkwPojK3TWozlgH5H9WQ2u2LUc48icI7-hiPWPcpqg" 
-                alt=''
-                />
-                <div>
-
-                </div>
-                <h2 className='text-sm uppercase text-grey-500 pb-2 '>Software engineer</h2>
             <h1>
             <span>{text}</span>
             <Cursor cursorColor='#FFA500' />
             </h1>
-        </div>
+        </ion.div>
     )
 }

@@ -9,7 +9,7 @@ export default function Hero({}: Props) {
         words: [
             "Hello, The name is Mike", 
             "A-Guy-Who-Loves-Coffee.tsx", 
-            "<ButLovesToCodeEvenMore />",
+            "<ButLovesToBuildEvenMore />",
         ],
         loop: true,
         delaySpeed: 2000,
@@ -24,9 +24,8 @@ export default function Hero({}: Props) {
                 alt=''
                 />
                 <div>
-
+                    
                 </div>
-                <h2 className='text-sm uppercase text-grey-500 pb-2 '>Software engineer</h2>
             <h1>
             <span>{text}</span>
             <Cursor cursorColor='#FFA500' />
