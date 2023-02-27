@@ -1,0 +1,35 @@
+import React from "react";
+import { SocialIcon } from "react-social-icons";
+
+type Props = {}
+
+    export default function Header({}: Props) {
+        return (
+            <header>
+                <h1>
+                    <div className="flex">
+                        {/* Social Icons */}
+                        <SocialIcon url="https://twitter.com/bankroll_miyagi" 
+                                    fgColor="gray"
+                                    bgColor="transparent"
+                                    />
+
+<SocialIcon url="https://twitter.com/bankroll_miyagi" 
+                                    fgColor="gray"
+                                    bgColor="transparent"
+                                    />
+
+<SocialIcon url="https://twitter.com/bankroll_miyagi" 
+                                    fgColor="gray"
+                                    bgColor="transparent"
+                                    />
+
+<SocialIcon url="https://twitter.com/bankroll_miyagi" 
+                                    fgColor="gray"
+                                    bgColor="transparent"
+                                    />
+                    </div>
+                </h1>
+            </header>
+        )
+    }
