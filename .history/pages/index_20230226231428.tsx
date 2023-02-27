@@ -7,7 +7,7 @@ import About from '@/components/About';
 const Home: NextPage = () => {
 
   return (
-    <header className='bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white h-screen snap-y 
+    <header className='bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-amber-200 via-violet-600 to-sky-900 text-white h-screen snap-y 
                     snap-mandatory overflow-scroll z-0'>
       <Head>
         <title>Mike Portfolio</title>
@@ -20,13 +20,13 @@ const Home: NextPage = () => {
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start'>
+      <section id='hero' className='snap-center'>
         <Hero />
 
       </section>
 
       {/* About */}
-      <section id='about' className='snap-center'>
+      <section id='about'>
         <About />
       </section>
 
