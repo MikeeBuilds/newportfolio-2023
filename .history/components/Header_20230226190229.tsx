@@ -19,7 +19,7 @@ type Props = {}
                         scale: 1,
                     }}
                     transition={{
-                        duration: 1.5,
+                        duration: 1.2,
                     }}
                     className="flex flex-row items-center">
                         {/* Social Icons */}
@@ -55,9 +55,7 @@ type Props = {}
                         opacity: 1,
                         scale: 1,
                     }}
-                    transition={{
-                        duration: 1.5,
-                    }}
+                    transition={{}}
                     className="flex flex-row items-center text-gray-300 cursor-pointer">
                         <SocialIcon 
                         className="cursor-pointer"
