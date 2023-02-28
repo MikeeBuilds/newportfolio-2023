@@ -43,7 +43,7 @@ function ContactMe({}: Props) {
                 <input placeholder='Name' className='contactInput' 
                 type="text" />
                 <input placeholder='Email' className='contactInput' 
-                type="email" />
+                type="text" />
             </div>
 
             <input placeholder='Subject' className='contactInput' type="text" />

@@ -18,7 +18,7 @@ function ContactMe({}: Props) {
                 <span className='underline text-blue-500'>Get In Contact</span> Lets get to work!
             </h4>
 
-          <div className='space-y-6'>
+          <div>
             <div className='flex items-center space-x-5 justify-center '>
               <PhoneIcon className='h-10 w-10 text-blue-500 animate-pulse' />
               <p className='text-2xl'>+1234567890</p>
@@ -30,31 +30,8 @@ function ContactMe({}: Props) {
               </div>
 
             <div className='flex items-center space-x-5 justify-center '>
-              <EnvelopeIcon className='h-10 w-10 text-blue-500 animate-pulse' />
-              <p className='text-2xl'>
-                <a href='mailto:
-                ' className='underline text-blue-500'>Citizensofandrometta@gmail.com</a>
-              </p>
-              </div>
+              
           </div>
-
-          <form className='flex flex-col space-y-2 w-fit mx-auto'>
-            <div className='flex space-x-2'> 
-                <input placeholder='Name' className='contactInput' 
-                type="text" />
-                <input placeholder='Email' className='contactInput' 
-                type="email" />
-            </div>
-
-            <input placeholder='Subject' className='contactInput' type="text" />
-
-            <textarea placeholder='Message' className='contactInput' />
-            <button type='submit' className='bg-blue-500 text-white px-5 py-2 rounded-lg font-bold
-            text-lg'
-            >
-                    Submit 📨
-            </button>
-          </form>
         </div>
     </div>
   )

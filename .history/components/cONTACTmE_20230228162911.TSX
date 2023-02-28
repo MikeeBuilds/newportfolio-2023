@@ -40,16 +40,16 @@ function ContactMe({}: Props) {
 
           <form className='flex flex-col space-y-2 w-fit mx-auto'>
             <div className='flex space-x-2'> 
-                <input placeholder='Name' className='contactInput' 
+                <input placeholder='Name' pla className='contactInput' 
                 type="text" />
-                <input placeholder='Email' className='contactInput' 
-                type="email" />
+                <input placeholder='Name' pla className='contactInput' 
+                type="text" />
             </div>
 
-            <input placeholder='Subject' className='contactInput' type="text" />
+            <input className='contactInput' type="text" />
 
-            <textarea placeholder='Message' className='contactInput' />
-            <button type='submit' className='bg-blue-500 text-white px-5 py-2 rounded-lg font-bold
+            <textarea className='contactInput' />
+            <button className='bg-blue-500 text-white px-5 py-2 rounded-lg font-bold
             text-lg'
             >
                     Submit 📨
